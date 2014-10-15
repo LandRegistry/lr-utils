@@ -1,0 +1,5 @@
+argparse==1.2.1
+passlib==1.6.2
+py==1.4.25
+py-bcrypt==0.4
+wsgiref==0.1.2

@@ -1,0 +1,9 @@
+.DS_Store
+*.pyc
+static/build
+dev/
+.env
+htmlcov
+.coverage
+*.iml
+.cache
