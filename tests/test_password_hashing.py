@@ -1,6 +1,6 @@
 import unittest
 
-from password import PasswordUtils
+from lrutils import PasswordUtils
 
 class PasswordUtilsTestCase(unittest.TestCase):
 

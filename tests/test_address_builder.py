@@ -1,6 +1,6 @@
 import unittest
 
-from address import build_address
+from lrutils import build_address
 
 class AddressTestCase(unittest.TestCase):
 
