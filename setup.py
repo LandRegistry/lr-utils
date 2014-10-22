@@ -13,5 +13,5 @@ setup(name='lrutils',
       include_package_data=True,
       license='MIT',
       platforms='any',
-      install_requires=['passlib==1.6.2', 'py-bcrypt==0.4'],
+      install_requires=['passlib==1.6.2', 'py-bcrypt==0.4', 'python-dateutil==2.2'],
 )
