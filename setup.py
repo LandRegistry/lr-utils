@@ -2,6 +2,11 @@
 
 from setuptools import setup, find_packages
 
+
+def requirements():
+    with open('./requirements.txt') as f:
+        return [l.strip('\n') for l in f if l.strip('\n') and not l.startswith('#')]
+
 setup(name='lrutils',
       version='0.1',
       description='Utilities for LR Flask apps',
@@ -13,5 +18,5 @@ setup(name='lrutils',
       include_package_data=True,
       license='MIT',
       platforms='any',
-      install_requires=['passlib==1.6.2', 'py-bcrypt==0.4', 'python-dateutil==2.2'],
+      install_requires=requirements(),
 )
