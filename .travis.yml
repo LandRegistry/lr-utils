@@ -6,6 +6,6 @@ install:
 - pip install -r requirements_test.txt
 - pip install python-coveralls
 script:
-- py.test --cov lr-utils tests/ --cov-report=term --cov-report=html
+- py.test --cov lrutils tests/ --cov-report=term --cov-report=html
 after_success:
   - coveralls
