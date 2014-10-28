@@ -1,6 +1,6 @@
 
 
-[![Build Status](https://travis-ci.org/LandRegistry/lr-utils.svg)](https://travis-ci.org/LandRegistry/lr-utils.svg?branch=master)
+[![Build Status](https://travis-ci.org/LandRegistry/lr-utils.svg)](https://travis-ci.org/LandRegistry/lr-utils)
 
 ## Some stuff used by more than one LR Flask app
 
