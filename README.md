@@ -10,7 +10,7 @@
 **Add the following to your requirements.txt**
 
 ```
-lrutils==0.1
+lrutils==0.1.1
 ```
 
 ### Push new versions to PYPI public repository
