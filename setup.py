@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 
 
 def requirements():
-    with open('./requirements.txt') as f:
+    with open('./requirements.txt', 'r') as f:
         return [l.strip('\n') for l in f if l.strip('\n') and not l.startswith('#')]
 
 setup(name='lrutils',
