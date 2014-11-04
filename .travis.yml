@@ -8,4 +8,12 @@ install:
 script:
 - py.test --cov lrutils tests/ --cov-report=term --cov-report=html
 after_success:
-  - coveralls
+- coveralls
+deploy:
+  provider: pypi
+  user: ashimali
+  password:
+    secure: XzNzTfynCVQe4WSIqrsY3ODOEqOdAywAt4hocbKoYmoOQX/+PLF1bBwH2lClg6efuWjZmOlOU8/jhDHVwBplnxm4DMn+Uk6eZproXt3vbYvKK0Q5/sDP/ueFisGNuziDzwTdPeQbhCSlWZ53Zyj80iq+gPpvmDXSUjfJ5nPzpwg=
+  on:
+    tags: true
+    repo: LandRegistry/lr-utils

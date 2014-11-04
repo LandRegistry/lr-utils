@@ -7,3 +7,6 @@ htmlcov
 .coverage
 *.iml
 .cache
+dist/
+lrutils.egg-info
+
