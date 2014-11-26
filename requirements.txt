@@ -1,3 +1,4 @@
+Flask==0.10.1
 passlib==1.6.2
 py-bcrypt==0.4
 python-dateutil==2.2

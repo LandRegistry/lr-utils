@@ -1,3 +1,7 @@
+Flask==0.10.1
+passlib==1.6.2
+py-bcrypt==0.4
+python-dateutil==2.2
 argparse==1.2.1
 py==1.4.25
 pytest==2.6.3
