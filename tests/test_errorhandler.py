@@ -18,3 +18,7 @@ class ErrorHandlerTestCase(unittest.TestCase):
         assert response.headers.get('X-Frame-Options')
         assert response.headers.get('X-Content-Type-Options')
         assert response.headers.get('X-XSS-Protection')
+
+    def test_404(self):
+        rv = self.client.get('/pagedoesnotexist')
+        assert rv.status == '404 NOT FOUND'

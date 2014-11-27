@@ -1,4 +1,4 @@
-from flask import Markup, request, render_template, Response
+from flask import Markup, request, render_template
 from werkzeug.exceptions import default_exceptions, HTTPException
 
 
@@ -9,7 +9,7 @@ class ErrorHandler(object):
 
         if app is not None:
             self.init_app(app)
-            
+
         def __str__(self):
             return repr(self.code)
 
@@ -52,7 +52,7 @@ def setup_errors(app, error_template="error.html"):
                                error=error,
                                code=code,
                                name=Markup(name),
-                               description=Markup(description))
+                               description=Markup(description)), code
 
     for exception in default_exceptions:
         app.register_error_handler(exception, error_handler)
