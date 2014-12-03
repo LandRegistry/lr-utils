@@ -14,10 +14,10 @@ def requirements():
         return [l.strip('\n') for l in f if l.strip('\n') and not l.startswith('#')]
 
 setup(name='lrutils',
-      version='0.1.2',
+      version='0.1.3',
       description='Utilities for LR Flask apps',
       author='Land Registry',
-      author_email='adam.shimali@digital.cabinet-office.gov.uk',
+      author_email='paul.trelease@digital.landregistry.gov.uk',
       url='https://github.com/LandRegistry/lr-utils',
       download_url = 'http://github.com/LandRegistry/lr-utils/tarball/alpha',
       packages=find_packages(exclude=['tests']),
