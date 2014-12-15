@@ -14,7 +14,7 @@ def requirements():
         return [l.strip('\n') for l in f if l.strip('\n') and not l.startswith('#')]
 
 setup(name='lrutils',
-      version='0.1.4',
+      version='999',
       description='Utilities for LR Flask apps',
       author='Land Registry',
       author_email='paul.trelease@digital.landregistry.gov.uk',
